@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "build_meta_plus"
+
+[project]
+name = "sample_project"
+version = "0.1.0"
+description = "A sample project for testing build_meta_plus hooks"
+
+[tool.setuptools]
+py-modules = ["dummy"]
+
+[tool.build_meta_plus]
+pre-build = ["touch pre_success.txt"]
+post-build = ["touch post_success.txt"]
