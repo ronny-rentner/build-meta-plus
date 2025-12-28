@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "build-meta-plus"
-version = "0.1.0"
+version = "0.1.1"
 description = "A drop-in replacement for setuptools.build_meta that adds automated pre- and post-build hooks for cleanup and asset generation"
 authors = [{ name = "Ronny Rentner", email = "build_meta_plus.code@ronny-rentner.de" }]
 readme = "readme.md"
